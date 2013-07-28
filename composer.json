@@ -1,6 +1,7 @@
 {	
 	"name": "fluorine-framework/fluorine",
 	"description": "Fluorine Framework",
+	"version": "0.7.1",
 	"keywords": ["fluorine", "framework", "php"],
 	"authors": [
 		{

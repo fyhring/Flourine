@@ -10,7 +10,7 @@
 	],
 	"require": {
     	"rain/raintpl": ">=3.0.0",
-    	"fluorine-framework/framework": "*"
+    	"fluorine-framework/framework": "0.7"
 	},
 	"minimum-stability": "dev"
 }

@@ -1,0 +1,16 @@
+{	
+	"name": "fluorine-framework/fluorine",
+	"description": "Fluorine Framework",
+	"keywords": ["fluorine", "framework", "php"],
+	"authors": [
+		{
+			"name": "Niels Fyhring",
+			"email": "niels@fyhring.net"
+		}
+	],
+	"require": {
+    	"rain/raintpl": ">=3.0.0",
+    	"fluorine-framework/framework": "*"
+	},
+	"minimum-stability": "dev"
+}

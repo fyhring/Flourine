@@ -5,13 +5,15 @@
 	"authors": [
 		{
 			"name": "Niels Fyhring",
-			"email": "niels@fyhring.net"
+			"email": "niels@fyhring.net",
+			"role": "Developer"
 		}
 	],
 	"require": 
 	{
+    		"fluorine-framework/framework": "*",
     		"rain/raintpl": ">=3.0.0",
-    		"fluorine-framework/framework": "0.7.1"
+    		"filp/whoops": "1.*"
 	},
 	"minimum-stability": "dev"
 }

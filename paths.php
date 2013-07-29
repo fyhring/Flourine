@@ -6,9 +6,10 @@
 	define('ROOT', $root);
 	
 	define('SYS', ROOT .'vendor/fluorine-framework/framework/src/');
-	define('APP', ROOT .'app/');
-	define('PUBLIC_DIR', ROOT .'public_html/');
 	define('COMPONENTS', SYS .'components/');
+	define('PUBLIC_DIR', ROOT .'public_html/');
+	define('APP', ROOT .'app/');
+	define('U_COMPONENTS', APP .'components/');
 
 	
 ?>

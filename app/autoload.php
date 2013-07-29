@@ -13,7 +13,7 @@
 		COMPONENTS .'database/nitrogen',
 		COMPONENTS .'input',
 		COMPONENTS .'profiler',
-		COMPONENTS .'template',
+		U_COMPONENTS .'template',
 
 	);
 

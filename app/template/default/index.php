@@ -8,12 +8,24 @@
 </head>
 <body>
 	
+	<div class="menu">
+		
+		<ul class="nav">
+			<?php
+			echo $template->getMenu('main', 3);
+			?>
+		</ul>
+
+	</div>
+
+
 	<div class="wrapper">
-		{if="$isView==true"}
-			{include="$view"}
-		{else}
-			{$view}
-		{/if}
+	{if="$isView==true"}
+		{include="$view"}
+	{else}
+		{$view}
+	{/if}
+		
 	</div>
 
 </body>

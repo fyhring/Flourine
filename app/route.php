@@ -2,7 +2,5 @@
 	
 	
 	Route::get('/', function() {
-		return "Hello World!";
+		return new View('welcome', 'empty');
 	});
-
-	Route::get('users', 'user@index');

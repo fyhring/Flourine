@@ -11,8 +11,8 @@
 	$config['default']['title'] 	= 'Untitled Page';
 	$config['default']['template']	= 'default'; // Name of template folder.
 
-	$config['profiler']['log']		= true;
-	$config['profiler']['query'] 	= true;
+	$config['profiler']['log']		= false;
+	$config['profiler']['query'] 	= false;
 
 	$config['status'] 				= '1'; // 1 = Development status,  0 = Production status
 	

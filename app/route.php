@@ -2,5 +2,10 @@
 	
 	
 	Route::get('/', function() {
-		return new View('welcome', 'empty');
+
+		$view = new View('welcome', 'empty');
+		$view->assign('title', 'Fluorine Framework');
+		return $view;
 	});
+
+	

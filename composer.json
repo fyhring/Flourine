@@ -12,9 +12,8 @@
 	],
 	"require": 
 	{
-    		"fluorine-framework/framework": "*",
+    		"fluorine-framework/framework": "0.7.*",
     		"rain/raintpl": ">=3.0.0",
     		"filp/whoops": "1.*"
-	},
-	"minimum-stability": "dev"
+	}
 }
